@@ -74,7 +74,7 @@ function MessageNotificationModal({
 
           <div style={{ marginTop: "5px" }}>
             <Link href={`/messages?message=${newMessageReceived.sender}`}>
-              <a>View All Messages</a>
+              View All Messages
             </Link>
 
             <br />
@@ -102,9 +102,7 @@ const Instructions = ({ username }) => (
       <Icon name="hand point right" />
       <List.Content>
         You can disable it by going to
-        <Link href={`/${username}`}>
-          <a> Account </a>
-        </Link>
+        <Link href={`/${username}`}>Account</Link>
         Page and clicking on Settings Tab.
       </List.Content>
     </List.Item>
